@@ -1,0 +1,8 @@
+[Unit]
+Description=DDNS Cloudflare (actualiza los registros A con la IP publica)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 %h/ddns-pilahito/ddns-pilahito.py

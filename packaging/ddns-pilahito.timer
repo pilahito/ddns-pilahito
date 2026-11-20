@@ -1,0 +1,10 @@
+[Unit]
+Description=Comprobar la IP publica cada 5 minutos
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Unit=ddns-pilahito.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,6 @@
+{
+  "token": "TOKEN_DE_CLOUDFLARE_CON_PERMISO_DNS_EDIT",
+  "zona": "ejemplo.org",
+  "registros": ["mc.ejemplo.org", "otro.ejemplo.org"],
+  "proxied": false
+}
